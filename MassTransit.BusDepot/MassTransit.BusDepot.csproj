@@ -107,8 +107,7 @@ xcopy /y "$(TargetPath)"  "$(TargetDir)nuget\lib\net45"
 xcopy /y "$(TargetDir)Unity.ServiceBus.BusDepot.xml"  "$(TargetDir)nuget\lib\net45"
 xcopy /y "$(TargetDir)Unity.ServiceBus.BusDepot.pdb"  "$(TargetDir)nuget\lib\net45"
 cd "$(TargetDir)nuget"
-nuget pack Unity.ServiceBus.BusDepot.nuspec
-if $(ConfigurationName) == Release nuget push Unity.ServiceBus.BusDepot*.nupkg df41b8b0-4ada-4cc6-1728-479de73d8f63 -s http://nuget.directs.com/</PostBuildEvent>
+nuget pack Unity.ServiceBus.BusDepot.nuspec</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
