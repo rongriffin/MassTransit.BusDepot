@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>MassTransit.BusDepot</id>
+		<version>1.0.0</version>
+		<title>MassTransit.BusDepot</title>
+		<authors>Ron Griffin</authors>
+		<owners>rongriffin@gmail.com</owners>
+		<projectUrl>https://github.com/rongriffin/MassTransit.BusDepot</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Helper class for publishing to a MassTransit bus</description>
+		<releaseNotes>support loopback protocol</releaseNotes>
+		<copyright>Copyright 2015 Ron Griffin</copyright>
+		<tags></tags>
+		<dependencies>
+			<dependency id="Magnum" version="2.1.3" />
+			<dependency id="MassTransit" version="2.9.8" />
+			<dependency id="MassTransit.RabbitMQ" version="2.9.8"  />
+			<dependency id="Newtonsoft.Json" version="6.0.5"  />
+			<dependency id="RabbitMQ.Client" version="3.3.5" />
+		</dependencies>
+	</metadata>
+</package>
